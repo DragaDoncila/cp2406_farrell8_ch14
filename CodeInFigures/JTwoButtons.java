@@ -4,6 +4,7 @@ public class JTwoButtons extends JFrame
 {
    JButton button1 = new JButton("Enabled");
    JButton button2 = new JButton("Disabled");
+
    public JTwoButtons()
    {
       add(button1);  

@@ -14,7 +14,7 @@ public class ComboBoxDemonstration extends JFrame implements ItemListener
    {
       super("ComboBox Demonstration");
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      setLayout(new FlowLayout());
+      setLayout(flow);
       JComboBox<String> majorChoice = new JComboBox<String>();
       majorChoice.addItem("English");
       majorChoice.addItem("Math");
